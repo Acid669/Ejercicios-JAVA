@@ -15,10 +15,10 @@ public class Platillos {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String nombre;
     private String receta;
-    private Double precio;
+    private double precio;
 
     //Constructores
     // Constructor en null
@@ -26,7 +26,7 @@ public class Platillos {
     }
 
     //Constructor con atributos
-    public Platillos(long id, String nombre, String receta, Double precio) {
+    public Platillos(Long id, String nombre, String receta, double precio) {
         this.id = id;
         this.nombre = nombre;
         this.receta = receta;
@@ -38,7 +38,7 @@ public class Platillos {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -62,7 +62,7 @@ public class Platillos {
         return precio;
     }
 
-    public void setPrecio(Double precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 
