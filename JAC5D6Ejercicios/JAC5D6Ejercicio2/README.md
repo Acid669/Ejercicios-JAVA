@@ -1,0 +1,8 @@
+# Ejercicio Nº 2 - Gestor de Eventos - Individual
+Imagina que estás construyendo una aplicación para gestionar eventos en una agenda. Cada evento tiene un nombre, una fecha y una categoría (por ejemplo, "Reunión", "Conferencia", "Taller"). Implementa las siguientes operaciones utilizando Streams y Optionals:
+
+Filtra los eventos que están programados para una fecha específica.
+
+Agrupa los eventos por categoría y cuenta cuántos eventos hay en cada categoría.
+
+Encuentra el evento más próximo en el tiempo utilizando Optionals.
