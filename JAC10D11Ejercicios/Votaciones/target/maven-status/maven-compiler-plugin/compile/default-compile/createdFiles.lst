@@ -1,0 +1,4 @@
+com\voto\votaciones\resources\JakartaEE8Resource.class
+logica\Voto.class
+com\voto\votaciones\JakartaRestConfiguration.class
+servlets\VotacionSv.class
