@@ -1,0 +1,16 @@
+com\torneo\gestiontorneo\persistencia\ControladoraPersistencia.class
+com\torneo\gestiontorneo\logica\Partido_.class
+com\torneo\gestiontorneo\logica\Equipo.class
+ControladoraEquipo.class
+com\torneo\gestiontorneo\logica\Controladora.class
+com\torneo\gestiontorneo\persistencia\EquipoJpaController.class
+com\torneo\gestiontorneo\exceptions\NonexistentEntityException.class
+com\torneo\gestiontorneo\logica\Partido.class
+com\torneo\gestiontorneo\exceptions\IllegalOrphanException.class
+com\torneo\gestiontorneo\exceptions\PreexistingEntityException.class
+com\torneo\gestiontorneo\resources\JakartaEE8Resource.class
+com\torneo\gestiontorneo\logica\Equipo_.class
+com\torneo\gestiontorneo\logica\servlets\PartidoSv.class
+com\torneo\gestiontorneo\logica\servlets\EquipoSv.class
+com\torneo\gestiontorneo\persistencia\PartidoJpaController.class
+com\torneo\gestiontorneo\JakartaRestConfiguration.class
