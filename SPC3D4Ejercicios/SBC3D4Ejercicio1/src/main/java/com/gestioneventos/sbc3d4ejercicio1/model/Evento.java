@@ -1,7 +1,11 @@
 package com.gestioneventos.sbc3d4ejercicio1.model;
 
-public class Evento {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+public class Evento {
     private long id;
     private String titulo;
     private String descripcion;
@@ -78,5 +82,6 @@ public class Evento {
     public void setPonente(String ponente) {
         this.ponente = ponente;
     }
+
 }
 

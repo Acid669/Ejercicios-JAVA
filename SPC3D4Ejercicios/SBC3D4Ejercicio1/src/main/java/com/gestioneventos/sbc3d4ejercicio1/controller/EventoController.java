@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.util.stream.Collectors.toList;
+
 
 @RestController
 @RequestMapping("/generador")
@@ -14,7 +16,7 @@ public class EventoController {
     private List<Evento> eventoList = new ArrayList<>();
 
     @PostMapping("/evento")
-    public Evento agregarPlatoAlMenu(@RequestBody Evento nuevoEvento) {
+    public Evento agregarEvento(@RequestBody Evento nuevoEvento) {
         nuevoEvento.setId((long) (eventoList.size() + 1));
         eventoList.add(nuevoEvento);
         return nuevoEvento;
