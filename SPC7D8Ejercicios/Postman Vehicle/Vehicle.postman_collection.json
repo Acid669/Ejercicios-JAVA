@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "60d59cdb-dbbd-4e16-b81b-b70381464f77",
+		"name": "Vehicle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27250265",
+		"_collection_link": "https://interstellar-firefly-667552.postman.co/workspace/HaB~92877a11-d687-483f-8c43-445f45102ada/collection/27250265-60d59cdb-dbbd-4e16-b81b-b70381464f77?action=share&source=collection_link&creator=27250265"
+	},
+	"item": [
+		{
+			"name": "createVehicle",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \r\n\"brand\":\"Opel\",\r\n\"model\":\"Astra\",\r\n\"kilometers\":\"120000\",\r\n\"doors\":5,\r\n\"price\":500\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/vehicles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vehicleList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/vehicles",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listVehiclesIncreases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/vehicles/prices",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"vehicles",
+						"prices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "informationById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/vehicles/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"vehicles",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
